@@ -14,6 +14,8 @@
 		D41566B01DCB523C009EEC3D /* KitCompanyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41566AF1DCB523C009EEC3D /* KitCompanyDetailViewController.swift */; };
 		D41566B41DCB53B8009EEC3D /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41566B31DCB53B8009EEC3D /* Company.swift */; };
 		D41566B71DCB5527009EEC3D /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41566B61DCB5527009EEC3D /* UIImageView.swift */; };
+		D42DDBFF1DCB6A9A004AFE69 /* KitCompaniesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42DDBFE1DCB6A9A004AFE69 /* KitCompaniesTableViewController.swift */; };
+		D42DDC011DCB6B80004AFE69 /* KitCompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42DDC001DCB6B80004AFE69 /* KitCompanyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		D41566AF1DCB523C009EEC3D /* KitCompanyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitCompanyDetailViewController.swift; sourceTree = "<group>"; };
 		D41566B31DCB53B8009EEC3D /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		D41566B61DCB5527009EEC3D /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		D42DDBFE1DCB6A9A004AFE69 /* KitCompaniesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitCompaniesTableViewController.swift; sourceTree = "<group>"; };
+		D42DDC001DCB6B80004AFE69 /* KitCompanyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitCompanyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +112,9 @@
 		D41566B21DCB525C009EEC3D /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				D41566AD1DCB4FFF009EEC3D /* Kit.storyboard */,
-				D41566AF1DCB523C009EEC3D /* KitCompanyDetailViewController.swift */,
+				D42DDC021DCB6B84004AFE69 /* Cells */,
+				D42DDC031DCB6B90004AFE69 /* Storyboards */,
+				D42DDC041DCB6B9C004AFE69 /* ViewControllers */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -120,6 +125,31 @@
 				D41566B61DCB5527009EEC3D /* UIImageView.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D42DDC021DCB6B84004AFE69 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D42DDC001DCB6B80004AFE69 /* KitCompanyTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D42DDC031DCB6B90004AFE69 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D41566AD1DCB4FFF009EEC3D /* Kit.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D42DDC041DCB6B9C004AFE69 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D41566AF1DCB523C009EEC3D /* KitCompanyDetailViewController.swift */,
+				D42DDBFE1DCB6A9A004AFE69 /* KitCompaniesTableViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +268,9 @@
 			files = (
 				D41566B01DCB523C009EEC3D /* KitCompanyDetailViewController.swift in Sources */,
 				D41566B71DCB5527009EEC3D /* UIImageView.swift in Sources */,
+				D42DDBFF1DCB6A9A004AFE69 /* KitCompaniesTableViewController.swift in Sources */,
 				D41566B41DCB53B8009EEC3D /* Company.swift in Sources */,
+				D42DDC011DCB6B80004AFE69 /* KitCompanyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +478,7 @@
 				D41566A71DCB4F6C009EEC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D41566A81DCB4F6C009EEC3D /* Build configuration list for PBXNativeTarget "StoryboardRefDemoKitTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +487,7 @@
 				D41566AA1DCB4F6C009EEC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

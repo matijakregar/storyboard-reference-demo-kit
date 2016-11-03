@@ -10,6 +10,10 @@
 		D415669B1DCB4F6C009EEC3D /* StoryboardRefDemoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41566911DCB4F6C009EEC3D /* StoryboardRefDemoKit.framework */; };
 		D41566A01DCB4F6C009EEC3D /* StoryboardRefDemoKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D415669F1DCB4F6C009EEC3D /* StoryboardRefDemoKitTests.swift */; };
 		D41566A21DCB4F6C009EEC3D /* StoryboardRefDemoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D41566941DCB4F6C009EEC3D /* StoryboardRefDemoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D41566AE1DCB4FFF009EEC3D /* Kit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41566AD1DCB4FFF009EEC3D /* Kit.storyboard */; };
+		D41566B01DCB523C009EEC3D /* KitCompanyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41566AF1DCB523C009EEC3D /* KitCompanyDetailViewController.swift */; };
+		D41566B41DCB53B8009EEC3D /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41566B31DCB53B8009EEC3D /* Company.swift */; };
+		D41566B71DCB5527009EEC3D /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41566B61DCB5527009EEC3D /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		D415669A1DCB4F6C009EEC3D /* StoryboardRefDemoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardRefDemoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D415669F1DCB4F6C009EEC3D /* StoryboardRefDemoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardRefDemoKitTests.swift; sourceTree = "<group>"; };
 		D41566A11DCB4F6C009EEC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41566AD1DCB4FFF009EEC3D /* Kit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Kit.storyboard; sourceTree = "<group>"; };
+		D41566AF1DCB523C009EEC3D /* KitCompanyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitCompanyDetailViewController.swift; sourceTree = "<group>"; };
+		D41566B31DCB53B8009EEC3D /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		D41566B61DCB5527009EEC3D /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,9 @@
 		D41566931DCB4F6C009EEC3D /* StoryboardRefDemoKit */ = {
 			isa = PBXGroup;
 			children = (
+				D41566B11DCB5255009EEC3D /* Model */,
+				D41566B21DCB525C009EEC3D /* UI */,
+				D41566B51DCB5508009EEC3D /* Extensions */,
 				D41566941DCB4F6C009EEC3D /* StoryboardRefDemoKit.h */,
 				D41566951DCB4F6C009EEC3D /* Info.plist */,
 			);
@@ -84,6 +95,31 @@
 				D41566A11DCB4F6C009EEC3D /* Info.plist */,
 			);
 			path = StoryboardRefDemoKitTests;
+			sourceTree = "<group>";
+		};
+		D41566B11DCB5255009EEC3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D41566B31DCB53B8009EEC3D /* Company.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D41566B21DCB525C009EEC3D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D41566AD1DCB4FFF009EEC3D /* Kit.storyboard */,
+				D41566AF1DCB523C009EEC3D /* KitCompanyDetailViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D41566B51DCB5508009EEC3D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D41566B61DCB5527009EEC3D /* UIImageView.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +185,7 @@
 					D41566901DCB4F6C009EEC3D = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 93TVZG5NS7;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					D41566991DCB4F6C009EEC3D = {
@@ -181,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41566AE1DCB4FFF009EEC3D /* Kit.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41566B01DCB523C009EEC3D /* KitCompanyDetailViewController.swift in Sources */,
+				D41566B71DCB5527009EEC3D /* UIImageView.swift in Sources */,
+				D41566B41DCB53B8009EEC3D /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +363,7 @@
 		D41566A61DCB4F6C009EEC3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 93TVZG5NS7;
@@ -334,6 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.matijakregar.StoryboardRefDemoKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +384,7 @@
 		D41566A71DCB4F6C009EEC3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 93TVZG5NS7;
@@ -360,6 +404,7 @@
 		D41566A91DCB4F6C009EEC3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 93TVZG5NS7;
 				INFOPLIST_FILE = StoryboardRefDemoKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +417,7 @@
 		D41566AA1DCB4F6C009EEC3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 93TVZG5NS7;
 				INFOPLIST_FILE = StoryboardRefDemoKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

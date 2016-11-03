@@ -27,14 +27,14 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zFk-TG-Ppw">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zFk-TG-Ppw">
                                             <rect key="frame" x="277" y="5" width="93" height="49.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="zFk-TG-Ppw" secondAttribute="height" multiplier="79:42" id="6oC-fD-xjt"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMb-xJ-LQ7">
-                                            <rect key="frame" x="8" y="19" width="261" height="21"/>
+                                            <rect key="frame" x="16" y="19" width="253" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -43,7 +43,7 @@
                                     <constraints>
                                         <constraint firstItem="YMb-xJ-LQ7" firstAttribute="centerY" secondItem="xUI-4V-MrK" secondAttribute="centerY" id="FV7-eW-fzm"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="zFk-TG-Ppw" secondAttribute="trailing" constant="-3" id="GmX-NG-SQh"/>
-                                        <constraint firstAttribute="leadingMargin" secondItem="YMb-xJ-LQ7" secondAttribute="leading" id="Nl2-rb-Rvp"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="YMb-xJ-LQ7" secondAttribute="leading" constant="-8" id="Nl2-rb-Rvp"/>
                                         <constraint firstItem="zFk-TG-Ppw" firstAttribute="leading" secondItem="YMb-xJ-LQ7" secondAttribute="trailing" constant="8" id="eCn-OV-RBV"/>
                                         <constraint firstItem="zFk-TG-Ppw" firstAttribute="height" secondItem="xUI-4V-MrK" secondAttribute="height" constant="-10" id="iLJ-YV-UVG"/>
                                         <constraint firstItem="zFk-TG-Ppw" firstAttribute="centerY" secondItem="xUI-4V-MrK" secondAttribute="centerY" id="vOM-RT-OhW"/>

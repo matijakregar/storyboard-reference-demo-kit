@@ -8,6 +8,8 @@
 
 import UIKit
 
+// A view controller that presents a single company details.
+
 public class KitCompanyDetailViewController: UIViewController {
     
     @IBOutlet private weak var logoView: UIImageView!
@@ -30,11 +32,6 @@ public class KitCompanyDetailViewController: UIViewController {
         if let company = company {
             displayCompany(company)
         }
-    }
-
-    override public func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     private func displayCompany(_ company: Company) {

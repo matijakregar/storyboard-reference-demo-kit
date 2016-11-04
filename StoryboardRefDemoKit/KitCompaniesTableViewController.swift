@@ -8,6 +8,8 @@
 
 import UIKit
 
+// A tableview controller that displays companies in the companies array.
+
 public class KitCompaniesTableViewController: UITableViewController {
     
     public var companies = [Company]()
@@ -32,7 +34,6 @@ public class KitCompaniesTableViewController: UITableViewController {
 
         return cell
     }
-    
     
     // MARK: - Navigation
 
